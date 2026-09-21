@@ -1,11 +1,17 @@
-x = int(input("what is x?"))
-y = int(input("what is y?"))
+score = int(input("what is the grade?"))
 
-if x>y:#boolean exprestion
-    print("x is greater than y")
 
-if x<y:
-    print("y is greater than y")
+if score >= 90:
+    print("AA")
 
-if x==y:
-    print("x is equal to y")
+elif score >=80:
+    print("BB")
+
+elif score >= 70:
+    print("CC")
+
+elif score >= 60:
+    print("DD")
+
+else:
+    print("FF")        
